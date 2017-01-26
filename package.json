@@ -1,0 +1,17 @@
+{
+  "name": "polling-app",
+  "version": "1.0.0",
+  "description": "An app where you can create polls and get real-time results!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Mancheno",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "pg": "^6.1.2"
+  }
+}
