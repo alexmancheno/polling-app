@@ -26,7 +26,7 @@
     </div>
   </nav>
 
-  <h2>Viewable poll results:</h2>
+  <h2 style="color: gold;">Viewable poll results:</h2>
   <div class="list-group">
     <% for (var i = 0; i < data.length; i++) { %>
       <a class="list-group-item" href=<%="/results/" + data[i].id %>><%= data[i].poll_question %><span class="badge"><%= data[i].date_posted%></span></a>

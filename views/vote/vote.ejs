@@ -26,7 +26,7 @@
     </div>
   </nav>
 
-  <h3><%= data.poll_question %></h3>
+  <h3 style="color: gold;"><%= data.poll_question %></h3>
 
   <form action="/vote/:id/" method="post">
     <% for (var i = 0; i < data.choices.length; i++) { %>

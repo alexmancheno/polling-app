@@ -27,11 +27,11 @@
       </ul>
     </div>
   </nav>
-  <h3><%= data.poll_question %></h3>
+  <h3 style="color: gold;">Question: <%= data.poll_question %></h3>
 
   <input name="poll_id" id="poll_id" readonly="true" hidden="true" value=<%=data.id%>></input>
 
-  <canvas id="myChart" width="400" height="300"></canvas>
+  <canvas id="myChart" width="400" height="300" style="color: gold;"></canvas>
   <script>
     var poll_id = document.getElementById("poll_id").value;
 
